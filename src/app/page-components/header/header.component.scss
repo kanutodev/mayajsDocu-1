@@ -1,0 +1,27 @@
+nav {
+    box-sizing: border-box;
+    padding: 0 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    height: 64px;
+}
+
+li .nav-item {
+    height: auto;
+    width: auto;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+li .nav-item:hove {
+    background-color: white !important;
+    color:wheat !important;
+}
+.nav-item > a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
