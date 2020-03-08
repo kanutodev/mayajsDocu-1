@@ -7,7 +7,11 @@ import { HeaderComponent } from './page-components/header/header.component';
 import { FooterComponent } from './page-components/footer/footer.component';
 import { GetStartComponent } from './pages/get-start/get-start.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+<<<<<<< HEAD
 import { SidenavComponent } from './page-components/navigation/sidenav/sidenav.component';
+=======
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+>>>>>>> added ngbootstrap and Ng install
 
 @NgModule({
   declarations: [
@@ -20,7 +24,8 @@ import { SidenavComponent } from './page-components/navigation/sidenav/sidenav.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
