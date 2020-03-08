@@ -14,9 +14,9 @@ li .nav-item {
     border-radius: 4px;
     padding: 8px 16px;
 }
-li .nav-item:hove {
-    background-color: white !important;
-    color:wheat !important;
+nav > .nav-item:hove .nav-link{
+    color: #ffffff;
+    background-color: #ee4400;
 }
 .nav-item > a {
     font-size: 16px;
